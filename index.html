@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- =========================================================
+       SEO — замените canonical на реальный домен после публикации
+       ========================================================= -->
+  <title data-i18n-attr="content:meta.title">Russian Manicure by Elena | Russian Manicure in Duluth, GA</title>
+  <meta name="description" content="Professional Russian manicure by Elena in Duluth, Georgia. Explore manicure services, portfolio, location and appointment information." data-i18n-attr="content:meta.desc">
+  <link rel="canonical" href="https://russianmanicurebyelena.com/">
+  <meta name="theme-color" content="#F1EDE4">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Russian Manicure by Elena">
+  <meta property="og:title" content="Russian Manicure by Elena | Russian Manicure in Duluth, GA" data-i18n-attr="content:meta.title">
+  <meta property="og:description" content="Professional Russian manicure by Elena in Duluth, Georgia. Explore manicure services, portfolio, location and appointment information." data-i18n-attr="content:meta.desc">
+  <meta property="og:url" content="https://russianmanicurebyelena.com/">
+  <meta property="og:image" content="https://russianmanicurebyelena.com/assets/img/og-image.png">
+  <meta property="og:locale" content="en_US" id="og-locale">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Russian Manicure by Elena | Russian Manicure in Duluth, GA" data-i18n-attr="content:meta.title">
+  <meta name="twitter:description" content="Professional Russian manicure by Elena in Duluth, Georgia. Explore manicure services, portfolio, location and appointment information." data-i18n-attr="content:meta.desc">
+  <meta name="twitter:image" content="https://russianmanicurebyelena.com/assets/img/og-image.png">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+  <!-- Structured data: Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NailSalon",
+    "name": "Russian Manicure by Elena",
+    "description": "Russian manicure services in Duluth, Georgia.",
+    "image": "https://russianmanicurebyelena.com/assets/img/og-image.png",
+    "url": "https://russianmanicurebyelena.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Yorkwood St",
+      "addressLocality": "Duluth",
+      "addressRegion": "GA",
+      "postalCode": "30097",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": ["https://www.instagram.com/helena_nails_atlanta"],
+    "areaServed": "Duluth, Georgia"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="ui.skip">Skip to main content</a>
+
+  <!-- =========================================================
+       HEADER
+       Ссылка «Book an Appointment» задаётся один раз в
+       assets/js/main.js → константа BOOKING_URL
+       ========================================================= -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="wordmark" href="#home" aria-label="Russian Manicure by Elena — home" data-i18n-attr="aria-label:ui.wordmark">
+        <span class="wordmark__main">Russian Manicure</span>
+        <span class="wordmark__sub">by Elena</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary" data-i18n-attr="aria-label:ui.nav_primary">
+        <ul class="nav__list">
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+          <li><a href="#location" data-i18n="nav.location">Location</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang" role="group" aria-label="Language" data-i18n-attr="aria-label:ui.lang_group">
+          <button type="button" class="lang__btn is-active" data-set-lang="en" aria-pressed="true">EN</button>
+          <span class="lang__sep" aria-hidden="true">|</span>
+          <button type="button" class="lang__btn" data-set-lang="ru" aria-pressed="false">RU</button>
+        </div>
+
+        <a class="btn btn--solid btn--sm header-cta" href="#" data-book-link target="_blank" rel="noopener"
+           data-i18n="cta.book">Book an Appointment</a>
+
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="mobile-menu"
+                aria-label="Open menu" data-i18n-attr="aria-label:ui.menu_open">
+          <span class="menu-toggle__bar" aria-hidden="true"></span>
+          <span class="menu-toggle__bar" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="mobile-menu__nav" aria-label="Mobile" data-i18n-attr="aria-label:ui.nav_mobile">
+      <ul>
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+        <li><a href="#location" data-i18n="nav.location">Location</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu__foot">
+      <div class="lang lang--lg" role="group" aria-label="Language" data-i18n-attr="aria-label:ui.lang_group">
+        <button type="button" class="lang__btn is-active" data-set-lang="en" aria-pressed="true">EN</button>
+        <span class="lang__sep" aria-hidden="true">|</span>
+        <button type="button" class="lang__btn" data-set-lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <a class="btn btn--solid" href="#" data-book-link target="_blank" rel="noopener"
+         data-i18n="cta.book">Book an Appointment</a>
+      <a class="btn btn--ghost" href="https://wa.me/14709170996" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn--ghost" href="https://www.instagram.com/helena_nails_atlanta" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- =========================================================
+         1. HERO
+         Фото героя: assets/img/hero.svg → замените на своё фото
+         ========================================================= -->
+    <section class="hero" id="home">
+      <div class="hero__media">
+        <img src="assets/img/hero.svg" alt="" width="1920" height="1200" fetchpriority="high" decoding="async">
+        <div class="hero__overlay">
+          <p class="eyebrow eyebrow--light" data-i18n="hero.eyebrow">Duluth, Georgia — Open 24 Hours</p>
+          <h1 class="hero__title">Russian Manicure <span>by Elena</span></h1>
+          <a class="text-link text-link--light" href="#contact" data-i18n="hero.book">Book an appointment</a>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="statement" data-reveal>
+          <span data-i18n="hero.st1">Precision.</span>
+          <span data-i18n="hero.st2">Elegance.</span>
+          <span data-i18n="hero.st3">Beautifully detailed.</span>
+        </p>
+
+        <div class="hero__intro" data-reveal>
+          <p class="hero__lead" data-i18n="hero.lead">Russian manicure in Duluth, Georgia — meticulous cuticle work, precise shaping and a clean, polished finish.</p>
+          <div class="btn-row">
+            <a class="btn btn--solid" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+            <a class="btn btn--ghost" href="#portfolio" data-i18n="hero.btn_portfolio">View Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         2. ABOUT
+         Портрет: assets/img/about-portrait.svg → замените на своё фото
+         ========================================================= -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <p class="about__side" aria-hidden="true" data-i18n="about.side">About</p>
+
+        <div class="about__media" data-reveal>
+          <img src="assets/img/about-portrait.svg" alt="Portrait placeholder — replace with Elena's photo" width="1000" height="1250" loading="lazy" decoding="async" data-i18n-attr="alt:img.portrait_alt">
+        </div>
+
+        <div class="about__body" data-reveal>
+          <p class="eyebrow" data-i18n="about.label">Russian Manicure — Duluth, Georgia</p>
+          <h2 class="h-display h-display--sm" data-i18n="about.h2">About Elena</h2>
+          <div class="about__text">
+            <p data-i18n="about.p1">Elena is the nail artist behind Russian Manicure by Elena — a studio on Yorkwood St in Duluth, Georgia, open 24 hours.</p>
+            <p data-i18n="about.p2">Her approach is quiet and precise: careful preparation, detailed cuticle work, even shaping and a clean finish. Every appointment is unhurried and tailored to the client in the chair.</p>
+            <p data-i18n="about.p3">The goal is simple — elegant, refined nails and a studio where every detail is taken care of.</p>
+          </div>
+          <a class="btn btn--ghost" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. SERVICES
+         Карточки 02–05 — заглушки: замените название и описание
+         на реальные услуги (и цены, если появятся).
+         ========================================================= -->
+    <section class="section services" id="services">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow" data-i18n="services.label">What I do</p>
+          <h2 class="h-display"><span data-i18n="services.h2">Services</span><sup>(5)</sup></h2>
+          <div class="section-head__actions">
+            <p class="section-head__note" data-i18n="services.note">Current pricing — please contact via Instagram or WhatsApp.</p>
+            <a class="btn btn--ghost btn--sm" href="https://wa.me/14709170996" target="_blank" rel="noopener" data-i18n="services.ask">Ask on WhatsApp</a>
+          </div>
+        </header>
+
+        <ul class="services__grid">
+          <li class="service-card" data-reveal>
+            <div class="service-card__media">
+              <img src="assets/img/service-01.svg" alt="Russian manicure — placeholder image" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.service_alt">
+            </div>
+            <div class="service-card__body">
+              <p class="service-card__index">01</p>
+              <h3 class="service-card__title" data-i18n="services.card1_name">Russian Manicure</h3>
+              <p class="service-card__desc" data-i18n="services.card1_desc">Detailed cuticle work, precise shaping and a refined, natural-looking finish.</p>
+              <p class="service-card__price" data-i18n="services.price">Contact for current pricing</p>
+              <a class="text-link" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+            </div>
+          </li>
+
+          <li class="service-card service-card--ph" data-reveal>
+            <div class="service-card__media">
+              <img src="assets/img/service-02.svg" alt="Service placeholder image" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.ph_alt">
+              <p class="service-card__badge" data-i18n="services.ph_badge">To be replaced</p>
+            </div>
+            <div class="service-card__body">
+              <p class="service-card__index">02</p>
+              <h3 class="service-card__title" data-i18n="services.ph_name">Service name</h3>
+              <p class="service-card__desc" data-i18n="services.ph_desc">Short description — replace with your real service.</p>
+              <p class="service-card__price" data-i18n="services.price">Contact for current pricing</p>
+              <a class="text-link" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+            </div>
+          </li>
+
+          <li class="service-card service-card--ph" data-reveal>
+            <div class="service-card__media">
+              <img src="assets/img/service-03.svg" alt="Service placeholder image" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.ph_alt">
+              <p class="service-card__badge" data-i18n="services.ph_badge">To be replaced</p>
+            </div>
+            <div class="service-card__body">
+              <p class="service-card__index">03</p>
+              <h3 class="service-card__title" data-i18n="services.ph_name">Service name</h3>
+              <p class="service-card__desc" data-i18n="services.ph_desc">Short description — replace with your real service.</p>
+              <p class="service-card__price" data-i18n="services.price">Contact for current pricing</p>
+              <a class="text-link" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+            </div>
+          </li>
+
+          <li class="service-card service-card--ph" data-reveal>
+            <div class="service-card__media">
+              <img src="assets/img/service-04.svg" alt="Service placeholder image" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.ph_alt">
+              <p class="service-card__badge" data-i18n="services.ph_badge">To be replaced</p>
+            </div>
+            <div class="service-card__body">
+              <p class="service-card__index">04</p>
+              <h3 class="service-card__title" data-i18n="services.ph_name">Service name</h3>
+              <p class="service-card__desc" data-i18n="services.ph_desc">Short description — replace with your real service.</p>
+              <p class="service-card__price" data-i18n="services.price">Contact for current pricing</p>
+              <a class="text-link" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+            </div>
+          </li>
+
+          <li class="service-card service-card--ph" data-reveal>
+            <div class="service-card__media">
+              <img src="assets/img/service-05.svg" alt="Service placeholder image" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.ph_alt">
+              <p class="service-card__badge" data-i18n="services.ph_badge">To be replaced</p>
+            </div>
+            <div class="service-card__body">
+              <p class="service-card__index">05</p>
+              <h3 class="service-card__title" data-i18n="services.ph_name">Service name</h3>
+              <p class="service-card__desc" data-i18n="services.ph_desc">Short description — replace with your real service.</p>
+              <p class="service-card__price" data-i18n="services.price">Contact for current pricing</p>
+              <a class="text-link" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. THE ART OF RUSSIAN MANICURE
+         ========================================================= -->
+    <section class="section art" id="russian-manicure">
+      <div class="container art__grid">
+        <div class="art__intro" data-reveal>
+          <p class="eyebrow eyebrow--light" data-i18n="art.label">The technique</p>
+          <h2 class="h-display h-display--light" data-i18n="art.h2">The Art of Russian Manicure</h2>
+          <p class="art__text" data-i18n="art.p">Russian manicure is a technique built around careful preparation. The focus is on the cuticle line, accurate shaping and a smooth, even surface — so the nail looks neat up close and the polish sits cleanly.</p>
+        </div>
+
+        <ol class="art__list">
+          <li class="art__item" data-reveal>
+            <span class="art__num">01</span>
+            <div>
+              <h3 class="art__item-title" data-i18n="art.s1t">Preparation</h3>
+              <p class="art__item-text" data-i18n="art.s1d">Careful work with the nail plate and cuticle area before styling.</p>
+            </div>
+          </li>
+          <li class="art__item" data-reveal>
+            <span class="art__num">02</span>
+            <div>
+              <h3 class="art__item-title" data-i18n="art.s2t">Cuticle work</h3>
+              <p class="art__item-text" data-i18n="art.s2d">Detailed, precise cuticle work for a clean, defined line.</p>
+            </div>
+          </li>
+          <li class="art__item" data-reveal>
+            <span class="art__num">03</span>
+            <div>
+              <h3 class="art__item-title" data-i18n="art.s3t">Shaping</h3>
+              <p class="art__item-text" data-i18n="art.s3d">An even, balanced shape that follows the natural nail.</p>
+            </div>
+          </li>
+          <li class="art__item" data-reveal>
+            <span class="art__num">04</span>
+            <div>
+              <h3 class="art__item-title" data-i18n="art.s4t">Finish</h3>
+              <p class="art__item-text" data-i18n="art.s4d">A smooth, polished surface and a neat final look.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PORTFOLIO
+         Файлы assets/img/portfolio-01…09.svg → замените на свои
+         фотографии работ (jpg/webp), сохранив имена или поправив пути.
+         ========================================================= -->
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <header class="section-head section-head--row" data-reveal>
+          <div>
+            <p class="eyebrow" data-i18n="portfolio.label">Selected work</p>
+            <h2 class="h-display"><span data-i18n="portfolio.h2">Portfolio</span><sup>(9)</sup></h2>
+          </div>
+          <a class="text-link" href="https://www.instagram.com/helena_nails_atlanta" target="_blank" rel="noopener" data-i18n="portfolio.link">Follow on Instagram</a>
+        </header>
+
+        <div class="gallery" id="gallery">
+          <a class="gallery__item" href="assets/img/portfolio-01.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-01.svg" alt="Image placeholder for manicure portfolio" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-02.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-02.svg" alt="Image placeholder for manicure portfolio" width="800" height="600" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-03.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-03.svg" alt="Image placeholder for manicure portfolio" width="800" height="800" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-04.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-04.svg" alt="Image placeholder for manicure portfolio" width="900" height="1200" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-05.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-05.svg" alt="Image placeholder for manicure portfolio" width="800" height="560" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-06.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-06.svg" alt="Image placeholder for manicure portfolio" width="800" height="1000" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-07.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-07.svg" alt="Image placeholder for manicure portfolio" width="800" height="800" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-08.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-08.svg" alt="Image placeholder for manicure portfolio" width="900" height="700" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+          <a class="gallery__item" href="assets/img/portfolio-09.svg" data-lightbox data-reveal>
+            <img src="assets/img/portfolio-09.svg" alt="Image placeholder for manicure portfolio" width="800" height="1100" loading="lazy" decoding="async" data-i18n-attr="alt:img.portfolio_alt">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. WHY CHOOSE
+         ========================================================= -->
+    <section class="section why" id="why">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow" data-i18n="why.label">The difference</p>
+          <h2 class="h-display h-display--sm" data-i18n="why.h2">Why Choose Russian Manicure by Elena</h2>
+        </header>
+
+        <ul class="why__grid">
+          <li class="why__item" data-reveal>
+            <span class="why__num">01</span>
+            <h3 class="why__title" data-i18n="why.t1">Precision</h3>
+            <p class="why__text" data-i18n="why.d1">Detailed and meticulous manicure work.</p>
+          </li>
+          <li class="why__item" data-reveal>
+            <span class="why__num">02</span>
+            <h3 class="why__title" data-i18n="why.t2">Personalized Service</h3>
+            <p class="why__text" data-i18n="why.d2">A manicure experience tailored to each client.</p>
+          </li>
+          <li class="why__item" data-reveal>
+            <span class="why__num">03</span>
+            <h3 class="why__title" data-i18n="why.t3">Elegant Results</h3>
+            <p class="why__text" data-i18n="why.d3">Clean, refined and sophisticated nail styling.</p>
+          </li>
+          <li class="why__item" data-reveal>
+            <span class="why__num">04</span>
+            <h3 class="why__title" data-i18n="why.t4">Attention to Detail</h3>
+            <p class="why__text" data-i18n="why.d4">A careful approach to every appointment.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. LOCATION
+         ========================================================= -->
+    <section class="section location" id="location">
+      <div class="container location__grid">
+        <div class="location__info" data-reveal>
+          <p class="eyebrow" data-i18n="loc.eyebrow">Find the studio</p>
+          <h2 class="h-display h-display--sm" data-i18n="loc.h2">Location</h2>
+
+          <dl class="location__details">
+            <div class="location__row">
+              <dt data-i18n="loc.name_label">Studio</dt>
+              <dd>Russian Manicure by Elena</dd>
+            </div>
+            <div class="location__row">
+              <dt data-i18n="loc.addr_label">Address</dt>
+              <dd><address data-i18n="loc.addr">Yorkwood St, Duluth, GA 30097, United States</address></dd>
+            </div>
+            <div class="location__row">
+              <dt data-i18n="loc.hours_label">Opening hours</dt>
+              <dd><span class="location__hours" data-i18n="loc.hours">Open 24 hours</span></dd>
+            </div>
+          </dl>
+
+          <a class="btn btn--solid" href="https://www.google.com/maps/dir/?api=1&destination=Yorkwood+St,+Duluth,+GA+30097,+United+States"
+             target="_blank" rel="noopener" data-i18n="loc.btn">Get Directions</a>
+        </div>
+
+        <div class="location__map" data-reveal>
+          <iframe
+            src="https://www.google.com/maps?q=Yorkwood+St,+Duluth,+GA+30097,+United+States&output=embed"
+            title="Map to Russian Manicure by Elena"
+            data-i18n-attr="title:loc.map_title"
+            width="600" height="450"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. ACCESSIBILITY / AMENITIES / PAYMENTS
+         ========================================================= -->
+    <section class="section info" id="accessibility">
+      <div class="container info__grid">
+        <div class="info-block" data-reveal>
+          <h2 class="info-block__title" data-i18n="acc.h2">Accessibility</h2>
+          <ul class="info-list">
+            <li>
+              <svg class="info-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="13" cy="4.4" r="2.1"></circle>
+                <path d="M11.6 8h4.2l1.9 5.1h2.4"></path>
+                <path d="M11.6 8v5.4h4.3"></path>
+                <circle cx="11.4" cy="15.6" r="5.4"></circle>
+                <path d="M16.4 18.6h3.8"></path>
+              </svg>
+              <span data-i18n="acc.1">Wheelchair-accessible car park</span>
+            </li>
+            <li>
+              <svg class="info-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M3.5 20.5h17"></path>
+                <path d="M5 20.5V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v15.5"></path>
+                <path d="M15 20.5V8.5h4a1 1 0 0 1 1 1v11"></path>
+                <path d="M8 12.5h5"></path>
+                <path d="M11 10.2l2.4 2.3-2.4 2.3"></path>
+              </svg>
+              <span data-i18n="acc.2">Wheelchair-accessible entrance</span>
+            </li>
+            <li>
+              <svg class="info-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="12" cy="4.3" r="2.1"></circle>
+                <path d="M12 7.4c-2.6 0-4.2 1.5-4.2 3.7 0 1 .4 1.9 1 2.6L7.4 20.5h2.2l1.1-5.4h2.6l1.1 5.4h2.2l-1.4-6.8c.6-.7 1-1.6 1-2.6 0-2.2-1.6-3.7-4.2-3.7z"></path>
+              </svg>
+              <span data-i18n="acc.3">Wheelchair-accessible toilet</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block" data-reveal>
+          <h2 class="info-block__title" data-i18n="amen.h2">Amenities</h2>
+          <ul class="info-list">
+            <li>
+              <svg class="info-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="6.5" y="3.5" width="11" height="6" rx="1.2"></rect>
+                <path d="M7 9.5h10v2.2a5.2 5.2 0 0 1-10.4 0z"></path>
+                <path d="M12 16.9v3.6"></path>
+              </svg>
+              <span data-i18n="amen.1">Toilet</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block" data-reveal>
+          <h2 class="info-block__title" data-i18n="pay.h2">Payments</h2>
+          <ul class="info-list">
+            <li>
+              <svg class="info-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="2.5" y="5.5" width="19" height="13" rx="1.4"></rect>
+                <path d="M2.5 10h19"></path>
+                <path d="M6 14.8h4.5"></path>
+              </svg>
+              <span data-i18n="pay.1">Credit cards</span>
+            </li>
+            <li>
+              <svg class="info-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <rect x="2.5" y="5.5" width="19" height="13" rx="1.4"></rect>
+                <path d="M2.5 10h19"></path>
+                <rect x="5.8" y="12.6" width="5" height="3.6" rx="0.6"></rect>
+                <path d="M14 14.4h4"></path>
+              </svg>
+              <span data-i18n="pay.2">Debit cards</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. FINAL CTA
+         ========================================================= -->
+    <section class="section cta" id="contact">
+      <div class="container cta__inner" data-reveal>
+        <p class="eyebrow" data-i18n="cta.eyebrow">Contact</p>
+        <h2 class="cta__title" data-i18n="cta.h2">Ready for your next manicure?</h2>
+        <p class="cta__text" data-i18n="cta.p">Book your appointment on Instagram — or message on WhatsApp for services and current pricing.</p>
+        <div class="btn-row btn-row--center">
+          <a class="btn btn--solid" href="#" data-book-link target="_blank" rel="noopener" data-i18n="cta.book">Book an Appointment</a>
+          <a class="btn btn--ghost" href="https://wa.me/14709170996" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/helena_nails_atlanta" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="footer__name">Russian Manicure by Elena</p>
+        <p class="footer__addr" data-i18n="footer.addr">Duluth, GA 30097, United States</p>
+        <p class="footer__hours"><span data-i18n="loc.hours_label">Opening hours</span>: <span data-i18n="loc.hours">Open 24 hours</span></p>
+        <div class="footer__contacts">
+          <a class="footer__social" href="https://www.instagram.com/helena_nails_atlanta" target="_blank" rel="noopener" aria-label="Instagram — Russian Manicure by Elena" data-i18n-attr="aria-label:ui.instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+              <circle cx="12" cy="12" r="4.2"></circle>
+              <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"></circle>
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <a class="footer__social" href="https://wa.me/14709170996" target="_blank" rel="noopener" aria-label="WhatsApp +1 470 917 0996">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M20.5 11.7a8.5 8.5 0 0 1-12.7 7.3L3.6 20.4l1.5-4.1a8.5 8.5 0 1 1 15.4-4.6z" stroke-linejoin="round"></path>
+              <path d="M8.6 7.6l1.1.8c.3.2.4.6.3 1l-.4 1c-.1.3 0 .6.2.8.7 1 1.7 1.9 2.8 2.4.3.1.6.1.8-.1l.9-.8c.2-.2.6-.2.9 0l1.2.9c.3.3.4.7.2 1.1-.4.7-1.2 1.1-2 1.1-3.9-.3-7.6-4-7.9-7.9 0-.8.4-1.5 1-2 .3-.2.7-.2 1-.1z" fill="currentColor" stroke="none"></path>
+            </svg>
+            <span>+1 470 917 0996</span>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer" data-i18n-attr="aria-label:ui.nav_footer">
+        <p class="footer__label" data-i18n="footer.nav_label">Navigation</p>
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#services" data-i18n="nav.services">Services</a></li>
+          <li><a href="#portfolio" data-i18n="nav.portfolio">Portfolio</a></li>
+          <li><a href="#location" data-i18n="nav.location">Location</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__lang">
+        <p class="footer__label" data-i18n="footer.lang_label">Language</p>
+        <div class="lang lang--lg" role="group" aria-label="Language" data-i18n-attr="aria-label:ui.lang_group">
+          <button type="button" class="lang__btn is-active" data-set-lang="en" aria-pressed="true">EN</button>
+          <span class="lang__sep" aria-hidden="true">|</span>
+          <button type="button" class="lang__btn" data-set-lang="ru" aria-pressed="false">RU</button>
+        </div>
+      </div>
+
+      <div class="footer__access">
+        <p class="footer__label" data-i18n="footer.access_label">Accessibility</p>
+        <ul>
+          <li data-i18n="acc.1">Wheelchair-accessible car park</li>
+          <li data-i18n="acc.2">Wheelchair-accessible entrance</li>
+          <li data-i18n="acc.3">Wheelchair-accessible toilet</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p data-i18n="footer.rights">© 2026 Russian Manicure by Elena. All rights reserved.</p>
+      <a class="to-top" href="#top" data-i18n="footer.to_top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       LIGHTBOX
+       ========================================================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" data-i18n-attr="aria-label:ui.lightbox" hidden>
+    <div class="lightbox__bar">
+      <p class="lightbox__count" id="lightbox-count" aria-live="polite"></p>
+      <button type="button" class="lightbox__close" id="lightbox-close" aria-label="Close" data-i18n-attr="aria-label:ui.close">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 5l14 14M19 5L5 19"></path></svg>
+      </button>
+    </div>
+    <button type="button" class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous image" data-i18n-attr="aria-label:ui.prev">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 4l-8 8 8 8"></path></svg>
+    </button>
+    <figure class="lightbox__figure">
+      <img id="lightbox-img" alt="">
+    </figure>
+    <button type="button" class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next image" data-i18n-attr="aria-label:ui.next">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 4l8 8-8 8"></path></svg>
+    </button>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
