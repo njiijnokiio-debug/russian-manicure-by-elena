@@ -64,14 +64,8 @@
 
       'services.label': 'What I do',
       'services.h2': 'Services',
-      'services.note': 'Current pricing — please contact via Instagram or WhatsApp.',
+      'services.note': 'Want to know current prices and services? Message me on WhatsApp or Instagram.',
       'services.ask': 'Ask on WhatsApp',
-      'services.card1_name': 'Russian Manicure',
-      'services.price': 'Contact for current pricing',
-      'services.card1_desc': 'Detailed cuticle work, precise shaping and a refined, natural-looking finish.',
-      'services.ph_name': 'Service name',
-      'services.ph_desc': 'Short description — replace with your real service.',
-      'services.ph_badge': 'To be replaced',
 
       'art.label': 'The technique',
       'art.h2': 'The Art of Russian Manicure',
@@ -109,6 +103,7 @@
       'loc.hours': 'Open 24 hours',
       'loc.btn': 'Get Directions',
       'loc.map_title': 'Map to Russian Manicure by Elena',
+      'loc.map_badge': 'Open in Google Maps',
 
       'acc.h2': 'Accessibility',
       'acc.1': 'Wheelchair-accessible car park',
@@ -128,8 +123,6 @@
       'footer.to_top': 'Back to top',
 
       'img.portrait_alt': 'Portrait placeholder — replace with Elena\u2019s photo',
-      'img.service_alt': 'Russian manicure — placeholder image',
-      'img.ph_alt': 'Service placeholder image',
       'img.portfolio_alt': 'Image placeholder for manicure portfolio'
     },
 
@@ -180,14 +173,8 @@
 
       'services.label': 'Что я делаю',
       'services.h2': 'Услуги',
-      'services.note': 'Актуальные цены — уточняйте, пожалуйста, в Instagram или WhatsApp.',
+      'services.note': 'Актуальные цены и услуги узнаёте в WhatsApp или Instagram — напишите, и я пришлю всю информацию.',
       'services.ask': 'Написать в WhatsApp',
-      'services.card1_name': 'Русский маникюр',
-      'services.price': 'Цена по запросу',
-      'services.card1_desc': 'Деликатная работа с кутикулой, точная форма и изящный, натуральный финиш.',
-      'services.ph_name': 'Название услуги',
-      'services.ph_desc': 'Краткое описание — замените на реальную услугу.',
-      'services.ph_badge': 'Заменить',
 
       'art.label': 'Техника',
       'art.h2': 'Искусство русского маникюра',
@@ -225,6 +212,7 @@
       'loc.hours': 'Открыто 24 часа',
       'loc.btn': 'Построить маршрут',
       'loc.map_title': 'Карта до Russian Manicure by Elena',
+      'loc.map_badge': 'Открыть в Google Картах',
 
       'acc.h2': 'Доступность',
       'acc.1': 'Парковка для колясок',
@@ -244,8 +232,6 @@
       'footer.to_top': 'Наверх',
 
       'img.portrait_alt': 'Заглушка портрета — замените на фото Елены',
-      'img.service_alt': 'Русский маникюр — изображение-заглушка',
-      'img.ph_alt': 'Изображение-заглушка услуги',
       'img.portfolio_alt': 'Изображение-заглушка для портфолио'
     }
   };
