@@ -122,8 +122,10 @@
       'footer.rights': '© 2026 Russian Manicure by Elena. All rights reserved.',
       'footer.to_top': 'Back to top',
 
-      'img.portrait_alt': 'Portrait placeholder — replace with Elena\u2019s photo',
-      'img.portfolio_alt': 'Image placeholder for manicure portfolio'
+      'img.pf1': 'Red cat-eye manicure',
+      'img.pf2': 'French manicure with rhinestones',
+      'img.pf3': 'Blue-gray manicure with a flower by the pool',
+      'img.pf4': 'Natural nude manicure'
     },
 
     ru: {
@@ -231,8 +233,10 @@
       'footer.rights': '© 2026 Russian Manicure by Elena. Все права защищены.',
       'footer.to_top': 'Наверх',
 
-      'img.portrait_alt': 'Заглушка портрета — замените на фото Елены',
-      'img.portfolio_alt': 'Изображение-заглушка для портфолио'
+      'img.pf1': 'Красный маникюр с эффектом кошачьего глаза',
+      'img.pf2': 'Френч с стразами',
+      'img.pf3': 'Серо-голубой маникюр с цветком у бассейна',
+      'img.pf4': 'Натуральный нюдовый маникюр'
     }
   };
 
